@@ -44,3 +44,12 @@
 .pricing-plan li{padding:5px 0}
 .pricing-note{margin-top:22px}
 @media(max-width:850px){.pricing-grid{grid-template-columns:1fr}.pricing-plan{padding:25px 22px}.pricing-amount{font-size:2rem}}
+
+/* Pricing cards: solid, accessible colours on the light after-pilot section. */
+.pricing-plan{background:#102726;border:1px solid #426b58;color:#f4f9f6;box-shadow:0 8px 24px rgba(12,26,26,.07)}
+.pricing-plan.featured{background:#173b30;border:2px solid #49b77d;color:#fff;box-shadow:0 8px 24px rgba(12,26,26,.10)}
+.pricing-plan .pricing-kicker,.pricing-plan.featured .pricing-kicker{color:#91e8b3}
+.pricing-plan h3,.pricing-plan.featured h3,.pricing-plan .pricing-amount,.pricing-plan.featured .pricing-amount{color:#fff}
+.pricing-plan .pricing-amount span,.pricing-plan.featured .pricing-amount span{color:#c9ddd1}
+.pricing-plan p,.pricing-plan.featured p{color:#d2e3d8}
+.pricing-plan ul,.pricing-plan.featured ul{color:#f0f7f1}
